@@ -1,4 +1,6 @@
-# Title
+# Property Scraping from Zillow API
+
+This is an end-to-end data engineering project involving fetching data from a property listing website called Zillow, storing this data in a data lake and using databricks to transform the raw data into a format better suited for reporting and advanced analytics.
 
 # Architecture
 
