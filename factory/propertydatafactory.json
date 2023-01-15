@@ -1,0 +1,9 @@
+{
+	"name": "propertydatafactory",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f14b3f96-aa0b-43a9-afbc-cb5f9351503e",
+		"tenantId": "4f7ac3d6-b41a-47bc-baee-18d61c17d91c"
+	}
+}

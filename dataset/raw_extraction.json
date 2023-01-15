@@ -1,0 +1,117 @@
+{
+	"name": "raw_extraction",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls_raw",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "raw",
+				"fileSystem": "extracted"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"dateSold": {
+					"type": "null"
+				},
+				"propertyType": {
+					"type": "string"
+				},
+				"lotAreaValue": {
+					"type": "number"
+				},
+				"address": {
+					"type": "string"
+				},
+				"variableData": {
+					"type": "object",
+					"properties": {
+						"text": {
+							"type": "string"
+						},
+						"type": {
+							"type": "string"
+						},
+						"data": {
+							"type": "object",
+							"properties": {
+								"isFresh": {
+									"type": "boolean"
+								}
+							}
+						}
+					}
+				},
+				"priceChange": {
+					"type": "null"
+				},
+				"zestimate": {
+					"type": "null"
+				},
+				"imgSrc": {
+					"type": "string"
+				},
+				"price": {
+					"type": "integer"
+				},
+				"bedrooms": {
+					"type": "integer"
+				},
+				"contingentListingType": {
+					"type": "null"
+				},
+				"longitude": {
+					"type": "number"
+				},
+				"latitude": {
+					"type": "number"
+				},
+				"listingStatus": {
+					"type": "string"
+				},
+				"zpid": {
+					"type": "string"
+				},
+				"listingSubType": {
+					"type": "object",
+					"properties": {
+						"is_FSBA": {
+							"type": "boolean"
+						}
+					}
+				},
+				"rentZestimate": {
+					"type": "null"
+				},
+				"daysOnZillow": {
+					"type": "integer"
+				},
+				"bathrooms": {
+					"type": "integer"
+				},
+				"livingArea": {
+					"type": "null"
+				},
+				"country": {
+					"type": "string"
+				},
+				"currency": {
+					"type": "string"
+				},
+				"lotAreaUnit": {
+					"type": "string"
+				},
+				"hasImage": {
+					"type": "boolean"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
