@@ -17,7 +17,7 @@ from pyspark.sql import functions as F
 # COMMAND ----------
 
 # display(dbutils.fs.mounts())
-display(dbutils.fs.ls('/mnt/Files/ADLS/raw'))
+# display(dbutils.fs.ls('/mnt/Files/ADLS/raw'))
 
 # COMMAND ----------
 
