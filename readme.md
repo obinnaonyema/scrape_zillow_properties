@@ -23,8 +23,5 @@ When you mount storage to databricks, you create a connection between the storag
 
 # Challenges and Future Enhancements
 
-1. Use Azure key vault to manage credentials--done
-2. Design a strategy to handle duplicates when data is pulled in subsequent days
-3. Enable automated deployment
-4. Deploy to Azure Data Factory with permissions granted to ADF
-5. Mount storage to databricks
+1. Design a strategy to handle duplicates when data is pulled in subsequent days
+2. Enable automated deployment
